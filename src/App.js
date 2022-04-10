@@ -15,7 +15,7 @@ function App() {
       <CounterHooks initialCount={0} />
       <button
         onClick={() =>
-          setTheme((prevTheme) => (prevTheme === "red" ? "blue" : "red"))
+          setTheme((prevTheme) => (prevTheme === "red" ? "yellow" : "red"))
         }
       >
         Toggle Theme
